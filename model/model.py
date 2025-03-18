@@ -138,7 +138,7 @@ class DropPath(nn.Module):
         return x.div(keep_prob) * random_tensor
 
 
-class CNNModel(BaseModel):
+class CNN_Stork(BaseModel):
     def __init__(self, num_classes=40):
         super().__init__()
         # 输入形状: [B, 3, 300, 300]
