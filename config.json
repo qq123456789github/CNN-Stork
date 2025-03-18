@@ -1,9 +1,9 @@
 {
-    "name": "006cat",
+    "name": "CNN_Stork",
     "n_gpu": 1,
 
     "arch": {
-        "type": "CNNModel",
+        "type": "CNN_Stork",
         "args": {}
     },
     "data_loader": {
